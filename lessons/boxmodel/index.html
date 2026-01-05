@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Leah Edwards" />
+    <meta name="description" content="example todo application" />
+    <title>Box Model</title>
+    <link type="text/css" rel="stylesheet" href="./index.css" />
+  </head>
+  <script type="module" src="./index.js"></script>
+  <body>
+    <main>
+      <div class="box">
+        <p>Box</p>
+      </div>
+      <div class="box">
+        <div class="box">
+          <p>Box in a Box</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box">
+          <div class="box">
+            Box in a Box in a Box
+          </div>
+        </div>
+      </div>
+      <div class="box" id="box-out-of-box-parent">
+        Where is the Box?
+        <div class="box" id="box-out-of-box-child">
+          <p>Box moved out of a Box</p>
+        </div>
+      </div>
+      <div class="box" id="parent-position-box">
+        <div class="box" id="sticky-box">
+          <p>The Magical Sticky Box</p>
+        </div>
+        <div class="box" id="fixed-box">
+          <p>Fixed Box</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
