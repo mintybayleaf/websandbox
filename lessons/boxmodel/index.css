@@ -46,16 +46,11 @@ main {
 }
 
 #parent-position-box {
-  height: 40vh;
+  height: 50vh;
 }
 
 #sticky-box {
   position: sticky;
   top: 15px;
   bottom: 50px;
-}
-
-#fixed-box {
-  position: fixed;
-  /* top: 50px; */
 }
