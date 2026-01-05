@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Leah Edwards" />
+    <meta name="author" content="Bailey Kocin" />
     <meta name="description" content="example todo application" />
     <title>Box Model</title>
     <link type="text/css" rel="stylesheet" href="./index.css" />
@@ -11,14 +11,17 @@
   <script type="module" src="./index.js"></script>
   <body>
     <main>
+      <!-- Regular Box -->
       <div class="box">
         <p>Box</p>
       </div>
+      <!-- Two Boxes -->
       <div class="box">
         <div class="box">
           <p>Box in a Box</p>
         </div>
       </div>
+      <!-- Three Boxes -->
       <div class="box">
         <div class="box">
           <div class="box">
@@ -26,12 +29,14 @@
           </div>
         </div>
       </div>
+      <!-- Teleporting Box -->
       <div class="box" id="box-out-of-box-parent">
         Where is the Box?
         <div class="box" id="box-out-of-box-child">
           <p>Box moved out of a Box</p>
         </div>
       </div>
+      <!-- The sticky box -->
       <div class="box" id="parent-position-box">
         <div class="box" id="sticky-box">
           <p>The Magical Sticky Box</p>
